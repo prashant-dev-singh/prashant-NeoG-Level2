@@ -8,6 +8,7 @@
 
 body{
     font-family: 'PT Serif', serif;
+    margin: 0;
 }
 
 .container{
@@ -33,12 +34,14 @@ body{
    background-color: var(--primary-color);
    border-radius: 0.5rem;
    color: white;
+   padding: 0.5rem 1rem;
 }
 
 .secondary-link{
     color: black;
     border:1px solid var(--primary-color);
     border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
 }
 
 .list-non-bullet{
@@ -79,11 +82,12 @@ hr{
 
 .hero{
     padding: 2rem;
+    text-align: center;
 
 }
 
 .hero-image{
-    max-width: 300px;
+    max-width: 400px;
  display: block;
  margin: auto;
     
@@ -91,7 +95,7 @@ hr{
 
 
 .head-name{
-    border: 1px solid red;
+    
  
 }
 
@@ -102,7 +106,7 @@ color: var(--secondary-color);
 .section
 {
     background-color:var(--off-white);
-    margin: 2rem;
+    margin: 1rem 0rem;
     padding: 2rem;
     
 }
@@ -119,4 +123,13 @@ color: var(--secondary-color);
     margin: auto;
     text-align: justify;
     max-width: 500px;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 2rem;
+    border-top-right-radius: 1rem;
+    color: white;
+   
+    
 }
