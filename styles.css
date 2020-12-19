@@ -149,3 +149,7 @@ color: var(--secondary-color);
 .frame{
     margin: 40px;
 }
+
+.section-new{
+    border: 1px solid black; 
+}
