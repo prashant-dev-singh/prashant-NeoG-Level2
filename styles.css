@@ -150,6 +150,9 @@ color: var(--secondary-color);
     margin: 40px;
 }
 
-.section-new{
+.div-inside{
     border: 1px solid black; 
+    padding: 15px 15px;
+    margin: 10px 10px;
+    border-radius: 5px;
 }
